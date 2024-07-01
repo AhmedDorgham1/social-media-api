@@ -1,9 +1,14 @@
 import { Sequelize } from "sequelize";
 
-export const sequelize = new Sequelize("facebook_2", "root", "", {
-  host: "localhost",
-  dialect: "mysql",
-});
+export const sequelize = new Sequelize(
+  "bhrp9ockiwdl2ltc1ouv",
+  "uodxwcdvbns9qxf2",
+  "Z7YyuGroZwdYTdzvXxqF",
+  {
+    host: "bhrp9ockiwdl2ltc1ouv-mysql.services.clever-cloud.com",
+    dialect: "mysql",
+  }
+);
 const db_connection = async () => {
   try {
     await sequelize.sync({ alter: true });

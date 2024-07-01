@@ -8,7 +8,7 @@ import postRouter from "./src/modules/post/post.routes.js";
 import commentRouter from "./src/modules/comment/comment.routes.js";
 
 const app = express();
-const port = 3000;
+const port = 8080;
 db_connection();
 app.use(express.json());
 app.use("/users", userRouter);
