@@ -1,6 +1,5 @@
 # Simple Facebook Application with Sequelize and Express
 
-This README provides an overview of the project, instructions for setting up and running the application, and details on its functionality.
 
 ## Project Overview
 
