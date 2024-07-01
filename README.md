@@ -1,4 +1,4 @@
-# Simple Facebook Application with Sequelize and Express
+# Simple Social media Application with Sequelize and Express
 
 
 ## Project Overview
